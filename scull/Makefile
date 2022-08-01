@@ -16,5 +16,5 @@ clean:
 
 else
     # called from kernel build system: just declare what our modules are
-    obj-m := scull.o
+    obj-m := main.o
 endif
